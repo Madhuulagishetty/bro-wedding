@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-// import ParticleEffect from './ParticleEffect';
+
 
 export default function ParallaxScroll() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -281,13 +281,7 @@ export default function ParallaxScroll() {
   
   return (
     <div className="relative w-full" ref={containerRef}>
-      {/* ParticleEffect with improved props */}
-      <ParticleEffect 
-        numParticles={100} 
-        particleColor="#ffffff" 
-        particleSize={3} 
-        particleSpeed={1} 
-      />
+     
       
       {/* Audio Element with preload */}
       <audio ref={audioRef} loop preload="auto">
