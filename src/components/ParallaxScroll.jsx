@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import ParticleEffect from './ParticleEffect';
+// import ParticleEffect from './ParticleEffect';
 
 export default function ParallaxScroll() {
   const [scrollPosition, setScrollPosition] = useState(0);
