@@ -261,29 +261,18 @@ export default function ParallaxScroll() {
   // Gallery images - replace with your actual wedding images
   const galleryImages = [
     {
-      src: "/wedding-image-1.jpg", // Replace with your actual image path or use placeholder
+      src: "/Bg-img-01.jpg", // Replace with your actual image path or use placeholder
       alt: "Ceremony Venue",
       title: "The Ceremony",
       description: "Join us for our sacred vows at the Grand Cathedral on May 15th at 10:00 AM."
     },
     {
-      src: "/wedding-image-2.jpg", // Replace with your actual image path or use placeholder
+      src: "/Bg-img-02.jpg", // Replace with your actual image path or use placeholder
       alt: "Reception Venue",
       title: "The Reception",
       description: "Celebrate with us at the Royal Garden from 6:00 PM onwards with dinner and dancing."
     },
-    {
-      src: "/wedding-image-3.jpg", // Replace with your actual image path or use placeholder
-      alt: "Couple Portrait",
-      title: "Our Journey",
-      description: "From college sweethearts to soulmates, our story spans seven beautiful years."
-    },
-    {
-      src: "/wedding-image-4.jpg", // Replace with your actual image path or use placeholder
-      alt: "Wedding Theme",
-      title: "Celebration Theme",
-      description: "Join our elegant rustic-themed celebration with hints of gold and burgundy."
-    }
+  
   ];
   
   // Adjust marquee animation speed based on scroll position
